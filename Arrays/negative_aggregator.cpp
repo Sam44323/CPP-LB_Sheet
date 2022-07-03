@@ -3,7 +3,33 @@ using std::endl;
 using std::cin;
 using std::cout;
 
-void negative_aggregator(int *arr, int lenght){}
+void negative_aggregator(int *arr, int length){
+  int left = 0, right = length - 1;
+  
+  while(left < right){
+    if (arr[left] < 0 && arr[right] < 0)
+      left++;
+     
+    else if (arr[left]>0 && arr[right]<0)
+    {
+      int temp=arr[left];
+      arr[left]=arr[right];
+      arr[right]=temp;
+      left++;
+      right--;
+    }
+     
+    else if (arr[left]>0 && arr[right] >0)
+      right--;
+    else{
+      left++;
+      right--;
+    }
+  }
+
+  for(int i = 0; i < length; i++)
+    cout << arr[i] << " ";
+}
 
 int main(){
   int n;
