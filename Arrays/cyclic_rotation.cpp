@@ -3,7 +3,16 @@ using std::endl;
 using std::cout;
 using std::cin;
 
-void cycle_array(int *arr, int length){}
+void cycle_array(int *arr, int length){
+  int lastValue = arr[length - 1], newArr[length];
+  for(int i = 0; i < length - 1 ; i++) newArr[i + 1] = arr[i];
+
+  newArr[0] = lastValue;
+
+  cout << "Cycled Array: " << endl;
+  
+  for(int i = 0; i < length; i++) cout << newArr[i] << " ";
+}
 
 int main(){
   int n;
