@@ -1,4 +1,3 @@
-#include <iostream>
 #include "../common_imports.h"
 
 void DNF(int *arr, int n){

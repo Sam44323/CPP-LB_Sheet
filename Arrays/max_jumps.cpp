@@ -1,4 +1,3 @@
-#include <iostream>
 #include "../common_imports.h"
 
 int max_jump(int *arr, int length){

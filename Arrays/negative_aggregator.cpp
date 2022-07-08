@@ -1,4 +1,3 @@
-#include <iostream>
 #include "../common_imports.h"
 
 void negative_aggregator(int *arr, int length){

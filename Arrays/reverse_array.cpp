@@ -1,4 +1,3 @@
-#include <iostream>
 #include "../common_imports.h"
 
 void reverseArray(int *arr, int start, int size)

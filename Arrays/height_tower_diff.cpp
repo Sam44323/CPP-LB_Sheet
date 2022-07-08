@@ -1,4 +1,3 @@
-#include <iostream>
 #include <cstdlib>
 #include "../common_imports.h"
 using std::sort;

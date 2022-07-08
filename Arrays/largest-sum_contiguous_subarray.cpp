@@ -1,4 +1,3 @@
-#include <iostream>
 #include "../common_imports.h"
 
 void Largest_Sum_Contiguous_Subarray(int *arr, int length){

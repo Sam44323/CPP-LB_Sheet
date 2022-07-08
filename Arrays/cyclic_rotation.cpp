@@ -1,4 +1,3 @@
-#include <iostream>
 #include "../common_imports.h"
 
 void cycle_array(int *arr, int length){

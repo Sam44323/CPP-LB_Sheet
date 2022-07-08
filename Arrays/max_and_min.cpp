@@ -1,4 +1,3 @@
-#include <iostream>
 #include "../common_imports.h"
 
 void max_and_min(int *arr, int length){
