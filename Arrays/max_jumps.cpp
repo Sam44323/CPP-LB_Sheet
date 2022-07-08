@@ -3,8 +3,17 @@ using std::endl;
 using std::cin;
 using std::cout;
 
+int max_jump(int *arr, int length){
+  int jumps = 0;
+  for(int i = 0; i < length ; i++){
+     if(arr[i] < length - 1){
+      i += arr[i];
+      jumps++;
+    }   
+  }
 
-int max_jump(int *arr, int length){}
+  return jumps;
+}
 
 int main(){
   int n;
