@@ -1,9 +1,31 @@
 #include <iostream>
+#include <cstdlib>
 using std::endl;
 using std::cin;
 using std::cout;
+using std::sort;
 
-int  height_diff_towers(int *arr, int length, int k){}
+int  height_diff_towers(int *arr, int length, int k){
+  sort(arr, arr + length);
+  if(arr[0] > k || arr[0] == k) arr[0] = arr[0] - k;
+  else arr[0] = arr[0] + k;
+  int min = arr[0], max = arr[0];
+
+  cout << "Arr: " << arr[0] << endl;
+
+  for(int i = 1; i < length; i++){
+    if(arr[i] > k || arr[i] == k) arr[i] = arr[i] - k;
+    if(arr[i] < k) arr[i] = arr[i] + k;
+
+    cout << "Arr: " << arr[i] << endl;
+
+    if(arr[i] < min) min = arr[i];
+    else if(arr[i] > max) max = arr[i];
+  }
+  
+  return abs(max - min);
+
+}
 
 int main(){
   int n, k;
