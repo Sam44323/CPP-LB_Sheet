@@ -1,7 +1,5 @@
 #include <iostream>
-using std::endl;
-using std::cout;
-using std::cin;
+#include "../common_imports.h"
 
 void cycle_array(int *arr, int length){
   int lastValue = arr[length - 1], newArr[length];

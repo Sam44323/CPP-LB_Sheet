@@ -1,7 +1,5 @@
 #include <iostream>
-using std::endl;
-using std::cin;
-using std::cout;
+#include "../common_imports.h"
 
 void negative_aggregator(int *arr, int length){
   int left = 0, right = length - 1;

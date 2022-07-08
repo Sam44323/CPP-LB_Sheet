@@ -1,8 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-using std::endl;
-using std::cin;
-using std::cout;
+#include "../common_imports.h"
 using std::sort;
 
 int  height_diff_towers(int *arr, int length, int k){

@@ -1,7 +1,5 @@
 #include <iostream>
-using std::endl;
-using std::cin;
-using std::cout;
+#include "../common_imports.h"
 
 void Largest_Sum_Contiguous_Subarray(int *arr, int length){
   int max_sum = 0;

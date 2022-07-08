@@ -1,8 +1,6 @@
 #include <iostream>
 #include <set>
-using std::cout;
-using std::cin;
-using std::endl;
+#include "../common_imports.h"
 using std::set;
 
 void union_find(int *arrA, int *arrB, int lenA, int lenB){

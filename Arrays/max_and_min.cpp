@@ -1,7 +1,5 @@
 #include <iostream>
-using std::cout;
-using std::endl;
-using std::cin;
+#include "../common_imports.h"
 
 void max_and_min(int *arr, int length){
   int max=arr[0], min = arr[0];

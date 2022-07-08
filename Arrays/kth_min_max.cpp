@@ -1,7 +1,5 @@
 #include <iostream>
-using std::cout;
-using std::cin;
-using std::endl;
+#include "../common_imports.h"
 using std::sort;
 
 void kth_min_max(int *arr, int length, int k){ 

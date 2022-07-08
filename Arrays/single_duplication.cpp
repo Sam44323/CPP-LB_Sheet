@@ -1,7 +1,5 @@
 #include <iostream>
-using std::endl;
-using std::cout;
-using std::cin;
+#include "../common_imports.h"
 using std::sort;
 
 void duplication_count(int *arr, int length){

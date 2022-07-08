@@ -1,7 +1,5 @@
 #include <iostream>
-using std::cout;
-using std::cin;
-using std::endl;
+#include "../common_imports.h"
 
 void DNF(int *arr, int n){
   int c0=0, c1=0, c2=0, counter = 0;

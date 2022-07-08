@@ -1,7 +1,5 @@
 #include <iostream>
-using std::endl;
-using std::cin;
-using std::cout;
+#include "../common_imports.h"
 
 int max_jump(int *arr, int length){
   int jumps = 0;
