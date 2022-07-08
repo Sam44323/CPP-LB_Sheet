@@ -3,6 +3,7 @@ using std::endl;
 using std::cin;
 using std::cout;
 
+
 int max_jump(int *arr, int length){}
 
 int main(){
